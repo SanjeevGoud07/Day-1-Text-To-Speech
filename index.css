@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+  margin: 0px;
+}
+
+.Con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #ff2121; */
+  background-color: #ffffff;
+}
+
+main {
+  font-family: Arial, Helvetica, Sans-Serif;
+  background-color: #242424;
+  height: 500px;
+  width: 400px;
+  border-radius: 21px;
+  /* box-shadow: 0px 0px 20px 5px rgb(109, 22, 22); */
+  box-shadow: 0px 0px 20px 5px rgb(71, 71, 71);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.77rem;
+  /* color: #ff2121; */
+  color: #ffffff;
+  font-weight: bold;
+  /* color: #303030; */
+  /* -webkit-text-stroke: 0.3px #ffffff; */
+  /* text-transform: uppercase; */
+}
+
+/* .title::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    
+    color: #ffffff;
+    -webkit-text-stroke:0px #242424
+    border-right: 2px solid #ffffff;
+    overflow: hidden;
+} */
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.text-title {
+  font-weight: bold;
+  /* color: #242424; */
+  color: #ffffff;
+  align-self: start;
+}
+
+#text {
+  height: 7rem;
+  width: 20rem;
+  border: none;
+  outline: 2px solid rgba(128, 128, 128, 0.623);
+  border-radius: 0.5rem;
+  resize: none;
+  font-size: 15px;
+  padding: 8px 10px;
+}
+
+.voice-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.voice-title {
+  font-weight: bold;
+  /* color: #242424; */
+  color: #ffffff;
+  align-self: start;
+}
+
+#voice {
+  height: 3rem;
+  width: 20rem;
+  border: none;
+  outline: 2px solid rgba(128, 128, 128, 0.623);
+  border-radius: 0.4rem;
+  padding: 0px 10px;
+}
+
+.submit {
+  background-color: rgba(255, 33, 33, 0.979);
+  color: #ffffff;
+  width: 20rem;
+  height: 3rem;
+  border-radius: 0.3rem;
+  font-size: 1.2rem;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
